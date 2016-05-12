@@ -14,6 +14,7 @@ class ViewController: UIViewController,
 UINavigationControllerDelegate
 {
     
+    // toolbar objects
     @IBOutlet var photoButton: UIToolbar!
     @IBOutlet var helpButton: UIToolbar!
     @IBOutlet var settingsButton: UIToolbar!
