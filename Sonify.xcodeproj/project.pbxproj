@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84269E551CE52DE100EF7245 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */; };
+		917EFD411CE118DA0036C693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD401CE118DA0036C693 /* AppDelegate.swift */; };
+		917EFD431CE118DA0036C693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD421CE118DA0036C693 /* ViewController.swift */; };
+		917EFD461CE118DA0036C693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917EFD441CE118DA0036C693 /* Main.storyboard */; };
+		917EFD481CE118DA0036C693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917EFD471CE118DA0036C693 /* Assets.xcassets */; };
+		917EFD4B1CE118DA0036C693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917EFD491CE118DA0036C693 /* LaunchScreen.storyboard */; };
+		917EFD561CE118DA0036C693 /* SonifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD551CE118DA0036C693 /* SonifyTests.swift */; };
+		917EFD611CE118DA0036C693 /* SonifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD601CE118DA0036C693 /* SonifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		917EFD521CE118DA0036C693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 917EFD351CE118DA0036C693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 917EFD3C1CE118DA0036C693;
+			remoteInfo = Sonify;
+		};
+		917EFD5D1CE118DA0036C693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 917EFD351CE118DA0036C693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 917EFD3C1CE118DA0036C693;
+			remoteInfo = Sonify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVTonePlayerUnit.swift; path = ../AVTonePlayerUnit.swift; sourceTree = "<group>"; };
+		917EFD3D1CE118DA0036C693 /* Sonify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		917EFD401CE118DA0036C693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		917EFD421CE118DA0036C693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		917EFD451CE118DA0036C693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		917EFD471CE118DA0036C693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		917EFD4A1CE118DA0036C693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		917EFD4C1CE118DA0036C693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917EFD511CE118DA0036C693 /* SonifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		917EFD551CE118DA0036C693 /* SonifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonifyTests.swift; sourceTree = "<group>"; };
+		917EFD571CE118DA0036C693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917EFD5C1CE118DA0036C693 /* SonifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		917EFD601CE118DA0036C693 /* SonifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonifyUITests.swift; sourceTree = "<group>"; };
+		917EFD621CE118DA0036C693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917EFD3A1CE118DA0036C693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD4E1CE118DA0036C693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD591CE118DA0036C693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917EFD341CE118DA0036C693 = {
+			isa = PBXGroup;
+			children = (
+				917EFD3F1CE118DA0036C693 /* Sonify */,
+				917EFD541CE118DA0036C693 /* SonifyTests */,
+				917EFD5F1CE118DA0036C693 /* SonifyUITests */,
+				917EFD3E1CE118DA0036C693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917EFD3E1CE118DA0036C693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917EFD3D1CE118DA0036C693 /* Sonify.app */,
+				917EFD511CE118DA0036C693 /* SonifyTests.xctest */,
+				917EFD5C1CE118DA0036C693 /* SonifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917EFD3F1CE118DA0036C693 /* Sonify */ = {
+			isa = PBXGroup;
+			children = (
+				84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */,
+				917EFD401CE118DA0036C693 /* AppDelegate.swift */,
+				917EFD421CE118DA0036C693 /* ViewController.swift */,
+				917EFD441CE118DA0036C693 /* Main.storyboard */,
+				917EFD471CE118DA0036C693 /* Assets.xcassets */,
+				917EFD491CE118DA0036C693 /* LaunchScreen.storyboard */,
+				917EFD4C1CE118DA0036C693 /* Info.plist */,
+			);
+			path = Sonify;
+			sourceTree = "<group>";
+		};
+		917EFD541CE118DA0036C693 /* SonifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				917EFD551CE118DA0036C693 /* SonifyTests.swift */,
+				917EFD571CE118DA0036C693 /* Info.plist */,
+			);
+			path = SonifyTests;
+			sourceTree = "<group>";
+		};
+		917EFD5F1CE118DA0036C693 /* SonifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				917EFD601CE118DA0036C693 /* SonifyUITests.swift */,
+				917EFD621CE118DA0036C693 /* Info.plist */,
+			);
+			path = SonifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917EFD3C1CE118DA0036C693 /* Sonify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917EFD651CE118DA0036C693 /* Build configuration list for PBXNativeTarget "Sonify" */;
+			buildPhases = (
+				917EFD391CE118DA0036C693 /* Sources */,
+				917EFD3A1CE118DA0036C693 /* Frameworks */,
+				917EFD3B1CE118DA0036C693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonify;
+			productName = Sonify;
+			productReference = 917EFD3D1CE118DA0036C693 /* Sonify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		917EFD501CE118DA0036C693 /* SonifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917EFD681CE118DA0036C693 /* Build configuration list for PBXNativeTarget "SonifyTests" */;
+			buildPhases = (
+				917EFD4D1CE118DA0036C693 /* Sources */,
+				917EFD4E1CE118DA0036C693 /* Frameworks */,
+				917EFD4F1CE118DA0036C693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				917EFD531CE118DA0036C693 /* PBXTargetDependency */,
+			);
+			name = SonifyTests;
+			productName = SonifyTests;
+			productReference = 917EFD511CE118DA0036C693 /* SonifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		917EFD5B1CE118DA0036C693 /* SonifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917EFD6B1CE118DA0036C693 /* Build configuration list for PBXNativeTarget "SonifyUITests" */;
+			buildPhases = (
+				917EFD581CE118DA0036C693 /* Sources */,
+				917EFD591CE118DA0036C693 /* Frameworks */,
+				917EFD5A1CE118DA0036C693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				917EFD5E1CE118DA0036C693 /* PBXTargetDependency */,
+			);
+			name = SonifyUITests;
+			productName = SonifyUITests;
+			productReference = 917EFD5C1CE118DA0036C693 /* SonifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917EFD351CE118DA0036C693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sonify;
+				TargetAttributes = {
+					917EFD3C1CE118DA0036C693 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2CHV27E3A6;
+					};
+					917EFD501CE118DA0036C693 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 917EFD3C1CE118DA0036C693;
+					};
+					917EFD5B1CE118DA0036C693 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 917EFD3C1CE118DA0036C693;
+					};
+				};
+			};
+			buildConfigurationList = 917EFD381CE118DA0036C693 /* Build configuration list for PBXProject "Sonify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 917EFD341CE118DA0036C693;
+			productRefGroup = 917EFD3E1CE118DA0036C693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917EFD3C1CE118DA0036C693 /* Sonify */,
+				917EFD501CE118DA0036C693 /* SonifyTests */,
+				917EFD5B1CE118DA0036C693 /* SonifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917EFD3B1CE118DA0036C693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917EFD4B1CE118DA0036C693 /* LaunchScreen.storyboard in Resources */,
+				917EFD481CE118DA0036C693 /* Assets.xcassets in Resources */,
+				917EFD461CE118DA0036C693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD4F1CE118DA0036C693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD5A1CE118DA0036C693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917EFD391CE118DA0036C693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84269E551CE52DE100EF7245 /* AVTonePlayerUnit.swift in Sources */,
+				917EFD431CE118DA0036C693 /* ViewController.swift in Sources */,
+				917EFD411CE118DA0036C693 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD4D1CE118DA0036C693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917EFD561CE118DA0036C693 /* SonifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		917EFD581CE118DA0036C693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917EFD611CE118DA0036C693 /* SonifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		917EFD531CE118DA0036C693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 917EFD3C1CE118DA0036C693 /* Sonify */;
+			targetProxy = 917EFD521CE118DA0036C693 /* PBXContainerItemProxy */;
+		};
+		917EFD5E1CE118DA0036C693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 917EFD3C1CE118DA0036C693 /* Sonify */;
+			targetProxy = 917EFD5D1CE118DA0036C693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		917EFD441CE118DA0036C693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917EFD451CE118DA0036C693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		917EFD491CE118DA0036C693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				917EFD4A1CE118DA0036C693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		917EFD631CE118DA0036C693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		917EFD641CE118DA0036C693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		917EFD661CE118DA0036C693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sonify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.Sonify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		917EFD671CE118DA0036C693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Sonify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.Sonify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		917EFD691CE118DA0036C693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.SonifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonify.app/Sonify";
+			};
+			name = Debug;
+		};
+		917EFD6A1CE118DA0036C693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.SonifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonify.app/Sonify";
+			};
+			name = Release;
+		};
+		917EFD6C1CE118DA0036C693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SonifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.SonifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonify;
+			};
+			name = Debug;
+		};
+		917EFD6D1CE118DA0036C693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SonifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sonifyapp.SonifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917EFD381CE118DA0036C693 /* Build configuration list for PBXProject "Sonify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917EFD631CE118DA0036C693 /* Debug */,
+				917EFD641CE118DA0036C693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917EFD651CE118DA0036C693 /* Build configuration list for PBXNativeTarget "Sonify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917EFD661CE118DA0036C693 /* Debug */,
+				917EFD671CE118DA0036C693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917EFD681CE118DA0036C693 /* Build configuration list for PBXNativeTarget "SonifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917EFD691CE118DA0036C693 /* Debug */,
+				917EFD6A1CE118DA0036C693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917EFD6B1CE118DA0036C693 /* Build configuration list for PBXNativeTarget "SonifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917EFD6C1CE118DA0036C693 /* Debug */,
+				917EFD6D1CE118DA0036C693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917EFD351CE118DA0036C693 /* Project object */;
+}
