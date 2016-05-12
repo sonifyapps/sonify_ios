@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Sonify
 //
-//  Created by Haden Pike on 5/9/16.
+//  Created by Haden Pike, Ambre Cooper on 5/9/16.
 //  Copyright © 2016 Sonify. All rights reserved.
 //
 
