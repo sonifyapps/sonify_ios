@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sonify" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZZ-dr-jX2">
-                                <rect key="frame" x="157" y="236" width="286" height="127"/>
+                                <rect key="frame" x="95" y="236" width="411" height="127"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="80"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -27,13 +27,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.098039215690000001" green="0.19215686269999999" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="XZZ-dr-jX2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="137" id="D1k-7U-Bfb">
-                                <variation key="widthClass=compact" constant="45"/>
-                                <variation key="heightClass=compact-widthClass=compact" constant="60"/>
+                            <constraint firstItem="XZZ-dr-jX2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="75" id="D1k-7U-Bfb">
+                                <variation key="heightClass=compact" constant="86"/>
+                                <variation key="widthClass=compact" constant="-9"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
                             </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="XZZ-dr-jX2" secondAttribute="trailing" constant="137" id="Vj3-z4-FpP">
-                                <variation key="widthClass=compact" constant="45"/>
-                                <variation key="heightClass=compact-widthClass=compact" constant="60"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XZZ-dr-jX2" secondAttribute="trailing" constant="74" id="Vj3-z4-FpP">
+                                <variation key="heightClass=compact" constant="85"/>
+                                <variation key="widthClass=compact" constant="-8"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="-20"/>
                             </constraint>
                             <constraint firstItem="XZZ-dr-jX2" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="216" id="hVN-rC-SzU">
                                 <variation key="heightClass=compact" constant="132"/>
@@ -48,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="375"/>
+            <point key="canvasLocation" x="52" y="375"/>
         </scene>
     </scenes>
 </document>

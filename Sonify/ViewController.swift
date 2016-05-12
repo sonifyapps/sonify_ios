@@ -101,7 +101,7 @@ UINavigationControllerDelegate
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
             imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
-            imagePicker.allowsEditing = true
+            //imagePicker.allowsEditing = true
             self.presentViewController(imagePicker, animated: true, completion: nil)
         }
     }
