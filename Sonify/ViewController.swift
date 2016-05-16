@@ -45,17 +45,11 @@ UINavigationControllerDelegate
         // Dispose of any resources that can be recreated.
     }
     
-    //  Called when the camera button is pressed
+    //  Called when the open button is pressed
     //  allows a user to select a photo from their library
-    @IBAction func photoAction(sender: AnyObject)
+    @IBAction func openAction(sender: AnyObject)
     {
-        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
-            //imagePicker.allowsEditing = true
-            self.presentViewController(imagePicker, animated: true, completion: nil)
-        }
+      //TODO
     }
     
     //  Called when settings button is pressed
@@ -95,12 +89,6 @@ UINavigationControllerDelegate
             "the higher up you are in the image. There are four buttons located at the bottom of the screen. " +
         "From left to right they are Open, Pan, Settings and Help."
         tts.speak(info)
-    }
-    
-    //  Used to open the user's photo library
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
-        imageView.image = image
-        self.dismissViewControllerAnimated(true, completion: nil);
     }
     
     //  When the user drags thier finger on the image
