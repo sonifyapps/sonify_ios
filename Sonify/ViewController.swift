@@ -24,6 +24,7 @@ UINavigationControllerDelegate
     
     var engine: AVAudioEngine!
     var tone: AVTonePlayerUnit!
+    var tts: TextToSpeech!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +43,7 @@ UINavigationControllerDelegate
         } catch let error as NSError {
             print(error)
         }
-        
+        tts = TextToSpeech()
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,11 +61,7 @@ UINavigationControllerDelegate
             "for that area you will hear a tone indicating where you are in the image. The higher the pitch, " +
             "the higher up you are in the image. There are four buttons located at the bottom of the screen. " +
         "From left to right they are Open, Pan, Settings and Help."
-        let utterance = AVSpeechUtterance(string: info)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-        
-        let synthesizer = AVSpeechSynthesizer()
-        synthesizer.speakUtterance(utterance)
+        tts.speak(info)
     }
     
     //  Called when settings buttion is pressed
