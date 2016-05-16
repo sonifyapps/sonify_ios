@@ -125,6 +125,7 @@ UINavigationControllerDelegate
     @IBAction func handleTap(recognizer:UITapGestureRecognizer) {
         //  check for description
         //  read if found
+    tts.speak("tap")
     }
 
 }
