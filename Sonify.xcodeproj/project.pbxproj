@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84269E551CE52DE100EF7245 /* AVTonePlayerUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */; };
+		84269EAD1CEA718B00EF7245 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84269EAC1CEA718B00EF7245 /* TextToSpeech.swift */; };
 		917EFD411CE118DA0036C693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD401CE118DA0036C693 /* AppDelegate.swift */; };
 		917EFD431CE118DA0036C693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EFD421CE118DA0036C693 /* ViewController.swift */; };
 		917EFD461CE118DA0036C693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917EFD441CE118DA0036C693 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVTonePlayerUnit.swift; path = ../AVTonePlayerUnit.swift; sourceTree = "<group>"; };
+		84269EAC1CEA718B00EF7245 /* TextToSpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
 		917EFD3D1CE118DA0036C693 /* Sonify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917EFD401CE118DA0036C693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		917EFD421CE118DA0036C693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				84269E541CE52DE100EF7245 /* AVTonePlayerUnit.swift */,
 				917EFD401CE118DA0036C693 /* AppDelegate.swift */,
 				917EFD421CE118DA0036C693 /* ViewController.swift */,
+				84269EAC1CEA718B00EF7245 /* TextToSpeech.swift */,
 				917EFD441CE118DA0036C693 /* Main.storyboard */,
 				917EFD471CE118DA0036C693 /* Assets.xcassets */,
 				917EFD491CE118DA0036C693 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84269E551CE52DE100EF7245 /* AVTonePlayerUnit.swift in Sources */,
+				84269EAD1CEA718B00EF7245 /* TextToSpeech.swift in Sources */,
 				917EFD431CE118DA0036C693 /* ViewController.swift in Sources */,
 				917EFD411CE118DA0036C693 /* AppDelegate.swift in Sources */,
 			);
