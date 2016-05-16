@@ -14,12 +14,6 @@ class ViewController: UIViewController,
 UINavigationControllerDelegate
 {
     
-    // toolbar objects
-    @IBOutlet var photoButton: UIToolbar!
-    @IBOutlet var helpButton: UIToolbar!
-    @IBOutlet var settingsButton: UIToolbar!
-    @IBOutlet var panButton: UIToolbar!
-    
     @IBOutlet var imageView: UIImageView!
     
     var engine: AVAudioEngine!
