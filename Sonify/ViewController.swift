@@ -51,20 +51,20 @@ UINavigationControllerDelegate
         // Dispose of any resources that can be recreated.
     }
     
-    //  Called when the help button is pressed
-    //  reads aloud a basic tutorial
-    @IBAction func helpAction(sender: AnyObject)
+    //  Called when the camera button is pressed
+    //  allows a user to select a photo from their library
+    @IBAction func photoAction(sender: AnyObject)
     {
-        let info = "To start, press Open in the lower left hand side of the screen to select your files. " +
-            "To hear the descriptions, slide your finger across the screen. When your finger touches an area " +
-            "of the image that can be described, the description will be read aloud. When there is no description " +
-            "for that area you will hear a tone indicating where you are in the image. The higher the pitch, " +
-            "the higher up you are in the image. There are four buttons located at the bottom of the screen. " +
-        "From left to right they are Open, Pan, Settings and Help."
-        tts.speak(info)
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
+            //imagePicker.allowsEditing = true
+            self.presentViewController(imagePicker, animated: true, completion: nil)
+        }
     }
     
-    //  Called when settings buttion is pressed
+    //  Called when settings button is pressed
     //  currently does nothing
     @IBAction func settingsAction(sender: AnyObject)
     {
@@ -90,17 +90,17 @@ UINavigationControllerDelegate
         }
     }
     
-    //  Callled when the camera button is pressed
-    //  allows a user to select a photo from their library
-    @IBAction func photoAction(sender: AnyObject)
+    //  Called when the help button is pressed
+    //  reads aloud a basic tutorial
+    @IBAction func helpAction(sender: AnyObject)
     {
-        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary;
-            //imagePicker.allowsEditing = true
-            self.presentViewController(imagePicker, animated: true, completion: nil)
-        }
+        let info = "To start, press Open in the lower left hand side of the screen to select your files. " +
+            "To hear the descriptions, slide your finger across the screen. When your finger touches an area " +
+            "of the image that can be described, the description will be read aloud. When there is no description " +
+            "for that area you will hear a tone indicating where you are in the image. The higher the pitch, " +
+            "the higher up you are in the image. There are four buttons located at the bottom of the screen. " +
+        "From left to right they are Open, Pan, Settings and Help."
+        tts.speak(info)
     }
     
     //  Used to open the user's photo library
